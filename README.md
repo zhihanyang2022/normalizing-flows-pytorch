@@ -1,3 +1,3 @@
 # VI with normalizing flows
 
-Implement paper "Variational Inference with Normalizing Flows" in PyTorch.
+This repo documents my attempt at reproducing the paper "Variational Inference with Normalizing Flows" in PyTorch.
