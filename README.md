@@ -14,7 +14,14 @@ My questions:
 - How did the authors evaluate the density at each point in Figure 3b without having access to the original `z0`? Really interesting conversation [here](https://groups.google.com/a/tensorflow.org/g/tfprobability/c/KouBOt9HQa8).
 - Potential functions 2, 3 and 4 extend indefinitely? Did the authors set some cutoff value?
 
-Anyway, here are some plots (with 100 layers of planar flows trained using Adam with a learning rate of 2e-3):
+Anyway, below are some plots. 
+
+Hyper-parameters:
+
+- 100 layers of planar flows
+- 1000 samples from $q_K$ to estimate KL
+- Adam with a learning rate of 2e-3
+- 10000 gradient steps (less than 5 minutes)
 
 | Potential | True density (unnorm.) | Learned density (emp.) | After nth layer |
 | :-: | :-: | :-: | :-: |
@@ -27,4 +34,4 @@ where:
 
 - "unnorm." stands for unnormalized; these are obtained by exponentiating the negative of the potentials.
 - "emp." stands for empirical; these are created by fitting a hexbin density plot over 1 million sampled points.
-- Plots in the last column are created by "flowing" 5000 points sampled from `q0` layer by layer.
+- Plots in the last column are created by "flowing" 5000 points sampled from $q_0$ layer by layer.
