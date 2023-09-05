@@ -16,9 +16,9 @@ My questions:
 
 Anyway, here are some plots (with 100 layers of planar flows):
 
-| Energy function  | True density (unnorm.) |  | Learned density (empirical) |
+| Energy function  | True density (unnorm.) | Learned density (empirical) | After nth planar flow |
 | ------------- | ------------- | ------------- | ------------- |
 | U1  | Content Cell  | placeholder | placeholder |
 | U2  | Content Cell  | placeholder | placeholder |
 | U3  | Content Cell  | placeholder | placeholder |
-| U4  | <img width="218" alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/8a79a614-4278-412e-93ae-4b7692f2097d"> | <img width="204" alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/af109a70-85cd-47d9-940b-1b4a6fbe9d46"> | <img width="284" alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/1c757df3-f9e3-4d76-b9f1-01f67ca3aada"> |
+| U4  | <img alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/8a79a614-4278-412e-93ae-4b7692f2097d"> | <img alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/af109a70-85cd-47d9-940b-1b4a6fbe9d46"> | <img alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/1c757df3-f9e3-4d76-b9f1-01f67ca3aada"> |
