@@ -16,7 +16,7 @@ My questions:
 
 Anyway, here are some plots (with 100 layers of planar flows):
 
-| Energy function  | True density (unnorm.) | Learned density (empirical) | After nth planar flow |
+| Energy | True density (unnorm.) | Learned density (emp.) | After nth layer |
 | ------------- | ------------- | ------------- | ------------- |
 | U1  | Content Cell  | placeholder | placeholder |
 | U2  | Content Cell  | placeholder | placeholder |
