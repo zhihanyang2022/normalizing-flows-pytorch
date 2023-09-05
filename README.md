@@ -27,3 +27,4 @@ where:
 
 - "unnorm." stands for unnormalized; these are obtained by exponentiating the negative of the potentials.
 - "emp." stands for empirical; these are created by fitting a hexbin density plot over 1 million sampled points.
+- Plots in the last column are created by "flowing" 5000 points sampled from `q0` layer by layer.
