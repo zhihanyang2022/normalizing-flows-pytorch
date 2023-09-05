@@ -11,7 +11,7 @@ I reproduced Section 6.1 using **planar flows**.
 
 My questions:
 
-- How did the authors evaluate the density at each point in Figure 3b without having access to the original `z0`? Really interesting conversation [here](https://groups.google.com/a/tensorflow.org/g/tfprobability/c/KouBOt9HQa8).
+- How did the authors evaluate the density at each point in Figure 3b without having access to the original `z0`? Really interesting conversation [here](https://groups.google.com/a/tensorflow.org/g/tfprobability/c/KouBOt9HQa8). I think (supported by this link) it can't be done unless we invert the normalizing flow. This could be done because the transformation is invertible but then the question is whether the inverse has a closed-form solution (probably no). I believe that finding a good way to invert the transformation is **critical** because this allows to find the probability of something under $q_K$, which is the entire point of having an invertible transformation (e.g., in GAN, we didn't have to do this).
 - Potential functions 2, 3 and 4 extend indefinitely? Did the authors set some cutoff value?
 
 Hyper-parameters:
