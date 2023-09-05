@@ -14,11 +14,16 @@ My questions:
 - How did the authors evaluate the density at each point in Figure 3b without having access to the original `z0`? Really interesting conversation [here](https://groups.google.com/a/tensorflow.org/g/tfprobability/c/KouBOt9HQa8).
 - Potential functions 2, 3 and 4 extend indefinitely? Did the authors set some cutoff value?
 
-Anyway, here are some plots (with 100 layers of planar flows):
+Anyway, here are some plots (with 100 layers of planar flows trained using Adam with a learning rate of 2e-3):
 
-| Energy | True density (unnorm.) | Learned density (emp.) | After nth layer |
+| Potential | True density (unnorm.) | Learned density (emp.) | After nth layer |
 | :-: | :-: | :-: | :-: |
 | U1  | Content Cell  | placeholder | placeholder |
 | U2  | Content Cell  | placeholder | placeholder |
 | U3  | Content Cell  | placeholder | placeholder |
 | U4  | <img alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/8a79a614-4278-412e-93ae-4b7692f2097d"> | <img alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/af109a70-85cd-47d9-940b-1b4a6fbe9d46"> | <img alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/1c757df3-f9e3-4d76-b9f1-01f67ca3aada"> |
+
+where:
+
+- "unnorm." stands for unnormalized; these are obtained by exponentiating the negative of the potentials.
+- "emp." stands for empirical; these are created by fitting a hexbin density plot over 1 million sampled points.
