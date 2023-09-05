@@ -9,7 +9,7 @@ This repo documents my attempt at reproducing "Variational Inference with Normal
 
 My questions:
 
-- How did the authors evaluate the density at each point in Figure 3b without having access to the original `z0`? Really interesting conversation ![here](https://groups.google.com/a/tensorflow.org/g/tfprobability/c/KouBOt9HQa8).
+- How did the authors evaluate the density at each point in Figure 3b without having access to the original `z0`? Really interesting conversation [here](https://groups.google.com/a/tensorflow.org/g/tfprobability/c/KouBOt9HQa8).
 - Potential functions 2, 3 and 4 extend indefinitely? Did the authors set some cutoff value?
 
 Anyway, here are some plots:
