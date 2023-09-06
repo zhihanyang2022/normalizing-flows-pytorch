@@ -2,7 +2,7 @@
 
 This repo documents my attempt at reproducing "Variational Inference with Normalizing Flows" in PyTorch. 
 
-## 2023/9/5
+## Approximating complex 2D distributions
 
 I reproduced Section 6.1 using **planar flows**. 
 
