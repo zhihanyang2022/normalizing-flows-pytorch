@@ -23,7 +23,7 @@ Hyper-parameters:
 
 Plots:
 
-| Potential | True density (unnormalized) | Learned density (hist2d) | After nth layer |
+| Potential | True density | Learned density | After nth layer |
 | :-: | :-: | :-: | :-: |
 | U1  | Content Cell  | placeholder | placeholder |
 | U2 (tapered) | Content Cell  | placeholder | placeholder |
