@@ -40,7 +40,7 @@ Potential function $U_1$:
 Potential function $U_2$ (tapered version):
 
 <p align="middle">
-  <img src="imgs/U2_density.png" width="25%" />
+  <img src="imgs/U2_true_density.png" width="25%" />
   <img src="imgs/U2_learned_density.png" width="25%" /> 
   <img src="imgs/U2_samples_from_each_layer.png" width="33.33%" />
 </p>
@@ -48,7 +48,7 @@ Potential function $U_2$ (tapered version):
 Potential function $U_3$ (tapered version):
 
 <p align="middle">
-  <img src="imgs/U3_density.png" width="25%" />
+  <img src="imgs/U3_true_density.png" width="25%" />
   <img src="imgs/U3_learned_density.png" width="25%" /> 
   <img src="imgs/U3_samples_from_each_layer.png" width="33.33%" />
 </p>
@@ -56,7 +56,7 @@ Potential function $U_3$ (tapered version):
 Potential function $U_4$ (tapered version):
 
 <p align="middle">
-  <img src="imgs/U4_density.png" width="25%" />
+  <img src="imgs/U4_true_density.png" width="25%" />
   <img src="imgs/U4_learned_density.png" width="25%" /> 
   <img src="imgs/U4_samples_from_each_layer.png" width="33.33%" />
 </p>
@@ -64,7 +64,7 @@ Potential function $U_4$ (tapered version):
 A potential function I created:
 
 <p align="middle">
-  <img src="imgs/U8_density.png" width="25%" />
+  <img src="imgs/U8_true_density.png" width="25%" />
   <img src="imgs/U8_learned_density.png" width="25%" /> 
   <img src="imgs/U8_samples_from_each_layer.png" width="33.33%" />
 </p>
