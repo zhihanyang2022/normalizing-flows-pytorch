@@ -33,37 +33,38 @@ Potential function $U_1$:
 
 <p align="middle">
   <img src="imgs/U1_density.png" width="25%" />
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c" width="25%" /> 
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297" width="33.33%" />
+  <img src="imgs/U1_learned_density.png" width="25%" /> 
+  <img src="imgs/U1_samples_from_each_layer.png" width="33.33%" />
 </p>
 
 Potential function $U_2$ (tapered version):
 
 <p align="middle">
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/764bd8f6-69dc-4caa-8b44-5ca8f5cb79fc" width="25%" />
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c" width="25%" /> 
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297" width="33.33%" />
+  <img src="imgs/U2_density.png" width="25%" />
+  <img src="imgs/U2_learned_density.png" width="25%" /> 
+  <img src="imgs/U2_samples_from_each_layer.png" width="33.33%" />
 </p>
 
 Potential function $U_3$ (tapered version):
 
 <p align="middle">
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/764bd8f6-69dc-4caa-8b44-5ca8f5cb79fc" width="25%" />
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c" width="25%" /> 
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297" width="33.33%" />
+  <img src="imgs/U3_density.png" width="25%" />
+  <img src="imgs/U3_learned_density.png" width="25%" /> 
+  <img src="imgs/U3_samples_from_each_layer.png" width="33.33%" />
 </p>
 
 Potential function $U_4$ (tapered version):
 
 <p align="middle">
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/764bd8f6-69dc-4caa-8b44-5ca8f5cb79fc" width="25%" />
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c" width="25%" /> 
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297" width="33.33%" />
+  <img src="imgs/U4_density.png" width="25%" />
+  <img src="imgs/U4_learned_density.png" width="25%" /> 
+  <img src="imgs/U4_samples_from_each_layer.png" width="33.33%" />
 </p>
 
 A potential function I created:
+
 <p align="middle">
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/702c6ad4-973c-4af6-85b9-7750391d38ea" width="25%" />
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c" width="25%" /> 
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297" width="33.33%" />
+  <img src="imgs/U8_density.png" width="25%" />
+  <img src="imgs/U8_learned_density.png" width="25%" /> 
+  <img src="imgs/U8_samples_from_each_layer.png" width="33.33%" />
 </p>
