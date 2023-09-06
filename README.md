@@ -4,22 +4,30 @@ This repo documents my attempt at reproducing "Variational Inference with Normal
 
 ## Approximating complex 2D distributions
 
-I reproduced Section 6.1 using **planar flows**. 
+### Notes
 
-- I used `torch.autograd.functional.jacobian` instead of Eq. 12 to compute the jacobian of the transformation; this is less efficient but (1) I'm only using $D=2$ and (2) it's easier to debug.
-- I found that I didn't have to enforce invertibility as discussed in Section A.1 🤷; during training, the dot product between $\vec{w}$ and $\vec{u}$ was always greater than -1. Explicitly enforced this constraint in my code led to bad results (i.e., the learned density didn't resemble the true density). Maybe I was doing it wrong...
+I reproduced Section 6.1 using **planar flows** with the following hacks:
 
-My thoughts/questions:
+- *Jacobian computation.* I used `torch.autograd.functional.jacobian` instead of Eq. 12 to compute the jacobian of the transformation; this is less efficient but (1) I'm only using $D=2$ and (2) it's easier to debug.
+- *Invertibility.* I found that I didn't have to enforce invertibility as discussed in Section A.1 ;during training, the dot product between $\vec{w}$ and $\vec{u}$ was always greater than -1. Explicitly enforced this constraint in my code led to bad results (i.e., the learned density didn't resemble the true density). Maybe I was doing it wrong...
+- *Tapering.* By definition, potential functions 2, 3 and 4 extend indefinitely in the horizontal direction. I created a tapering mask to resolve this issue. 
 
-- How did the authors evaluate the density at each point in Figure 3b without having access to the original $\vec{z}_0$? Really interesting conversation [here](https://groups.google.com/a/tensorflow.org/g/tfprobability/c/KouBOt9HQa8). I think (supported by this link) it can't be done unless we invert the normalizing flow. This could be done because the transformation is invertible but then the question is whether the inverse has a closed-form solution (probably no). I believe that finding a good way to invert the transformation is **critical** because this allows to find the probability of something under $q_K$, which is the entire point of having an invertible transformation (e.g., in GAN, we didn't have to do this).
-- Potential functions 2, 3 and 4 extend indefinitely? Did the authors set some cutoff value?
+### Questions
 
-Hyper-parameters:
+- How to evalute $q_K(z_K)$ for some arbitrary $z_K$? Interesting conversation [here](https://groups.google.com/a/tensorflow.org/g/tfprobability/c/KouBOt9HQa8).
+
+### Hyperparameters
 
 - 100 layers of planar flows
 - 1000 samples from $q_K$ to estimate KL
 - Adam with a learning rate of 2e-3
-- 10000 gradient steps (less than 5 minutes)
+- 30000 gradient steps
+
+### Plots
+
+- First image: unnormalized true density
+- Second image: empirical learned density
+- Third image: sampled points after the $n$-th layer
 
 Potential function $U_1$:
 
