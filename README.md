@@ -32,7 +32,7 @@ I reproduced Section 6.1 using **planar flows** with the following changes:
 Potential function $U_1$:
 
 <p align="middle">
-  <img src="imgs/U1_density.png" width="25%" />
+  <img src="imgs/U1_true_density.png" width="25%" />
   <img src="imgs/U1_learned_density.png" width="25%" /> 
   <img src="imgs/U1_samples_from_each_layer.png" width="33.33%" />
 </p>
