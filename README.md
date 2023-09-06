@@ -21,7 +21,7 @@ I reproduced Section 6.1 using **planar flows** with the following hacks:
 - 100 layers of planar flows
 - 1000 samples from $q_K$ to estimate KL
 - Adam with a learning rate of 2e-3
-- 30000 gradient steps
+- 30000 gradient steps (convergence reached at around 5000 steps but I trained longer anyway)
 
 ### Plots
 
