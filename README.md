@@ -28,7 +28,7 @@ Plots:
 | U1  | Content Cell  | placeholder | placeholder |
 | U2  | Content Cell  | placeholder | placeholder |
 | U3  | ![u4_density](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/764bd8f6-69dc-4caa-8b44-5ca8f5cb79fc) | ![u4_density_estimated](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c)| ![u4_from_each_layer](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/f1af5ec0-1d82-4c27-a6ae-993360f322a5) |
-| U4  | <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/0e30b247-fceb-4650-96d4-8f28a39c6b83"> | <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/0822118e-5a11-48d3-996e-fcb5e9579514"> | <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3fe962db-eab5-4367-9650-0e5075bb6d4b"> |
+| U4  | <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/0e30b247-fceb-4650-96d4-8f28a39c6b83"> | <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/0822118e-5a11-48d3-996e-fcb5e9579514"> | ![u4_from_each_layer](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/f1af5ec0-1d82-4c27-a6ae-993360f322a5) |
 
 - "unnorm." stands for unnormalized; these are obtained by exponentiating the negative of the potentials.
 - "emp." stands for empirical; these are created by fitting a hexbin density plot over 1 million sampled points.
