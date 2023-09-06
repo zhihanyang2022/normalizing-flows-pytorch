@@ -27,7 +27,7 @@ I reproduced Section 6.1 using **planar flows** with the following hacks:
 
 - First image: unnormalized true density
 - Second image: empirical learned density
-- Third image: sampled points after the $n$-th layer
+- Third image: sampled points after the $n$-th layer (each point is colored by its distance from $\mu$ of $q_0$ prior to all layers)
 
 Potential function $U_1$:
 
