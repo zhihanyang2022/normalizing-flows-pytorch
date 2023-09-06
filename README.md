@@ -30,7 +30,7 @@ Plots:
 | U3 (tapered) | ![u4_density](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/764bd8f6-69dc-4caa-8b44-5ca8f5cb79fc) | ![u4_density_estimated](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c)| ![u4_from_each_layer](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297) |
 | U4 (tapered) | <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/0e30b247-fceb-4650-96d4-8f28a39c6b83"> | <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/0822118e-5a11-48d3-996e-fcb5e9579514"> | ![u4_from_each_layer](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297) |
 
-Potential function $U_3$:
+Potential function $U_3$ (tapered version):
 
 <p align="middle">
   <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/764bd8f6-69dc-4caa-8b44-5ca8f5cb79fc" width="25%" />
