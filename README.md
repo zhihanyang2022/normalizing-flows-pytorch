@@ -60,3 +60,10 @@ Potential function $U_4$ (tapered version):
   <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c" width="25%" /> 
   <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297" width="33.33%" />
 </p>
+
+A potential function I created:
+<p align="middle">
+  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/702c6ad4-973c-4af6-85b9-7750391d38ea" width="25%" />
+  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c" width="25%" /> 
+  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297" width="33.33%" />
+</p>
