@@ -32,7 +32,7 @@ I reproduced Section 6.1 using **planar flows** with the following hacks:
 Potential function $U_1$:
 
 <p align="middle">
-  <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/764bd8f6-69dc-4caa-8b44-5ca8f5cb79fc" width="25%" />
+  <img src="imgs/U1_density.png" width="25%" />
   <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/fb498327-f645-4e20-9429-0ccee857192c" width="25%" /> 
   <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/3e2dd21b-359a-4fe5-8989-641b9efe0297" width="33.33%" />
 </p>
