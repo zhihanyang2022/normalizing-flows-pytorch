@@ -3,7 +3,9 @@
 This repo documents my attempt at reproducing "Variational Inference with Normalizing Flows" in PyTorch:
 
 - Part 1: Approximating complex 2D distributions
-- Part 2: Fitting deep latent Gaussian models (in this case, a VAE)
+- Part 2: Part 1 but amortized
+- Part 3: Fitting VAE (2-dimensional latent space)
+- Part 4: Fitting VAE (40-dimensional latent space)
 
 ## Approximating complex 2D distributions
 
