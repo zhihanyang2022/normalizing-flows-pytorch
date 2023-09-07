@@ -32,7 +32,7 @@ I reproduced Section 6.1 using **planar flows** with the following changes:
 
 - 1st image: unnormalized true density
 - 2nd image: empirical learned density
-- 3rd image: sampled points after the $n$-th layer (each colored by its distance to $\mu$ before passing through any layer)
+- 3rd image: sampled points after passing through the $n$-th layer (each is colored by its distance to $\mu$ before passing through any layer)
 - 4th image: estimated KL against number of gradient steps
 
 Potential function $U_1$:
