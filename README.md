@@ -7,7 +7,7 @@ This repo documents my attempt at reproducing "Variational Inference with Normal
 - Part 3: Fitting VAE (2-dimensional latent space)
 - Part 4: Fitting VAE (40-dimensional latent space)
 
-## Approximating complex 2D distributions
+## Part 1: Approximating complex 2D distributions
 
 ### Notes
 
@@ -26,13 +26,13 @@ I reproduced Section 6.1 using **planar flows** with the following changes:
 - 100 layers of planar flows
 - 1000 samples from $q_K$ to estimate KL
 - Adam with a learning rate of 2e-3
-- 30000 gradient steps (convergence takes much fewer steps but I trained longer anyway)
+- 10000 gradient steps (convergence takes much fewer steps but I trained longer anyway)
 
 ### Plots
 
 - 1st image: unnormalized true density
 - 2nd image: empirical learned density
-- 3rd image: sampled points after the $n$-th layer (each colored by its distance from $\mu$ of $q_0$ prior to all layers)
+- 3rd image: sampled points after the $n$-th layer (each colored by its distance to $\mu$ before passing through any layer)
 - 4th image: estimated KL against number of gradient steps
 
 Potential function $U_1$:
