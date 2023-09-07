@@ -38,41 +38,46 @@ I reproduced Section 6.1 using **planar flows** with the following changes:
 Potential function $U_1$:
 
 <p align="middle">
-  <img src="imgs/U1_true_density.png" width="25%" />
-  <img src="imgs/U1_learned_density.png" width="25%" /> 
-  <img src="imgs/U1_samples_from_each_layer.png" width="33.33%" />
+  <img src="imgs/U1_true_density.png" width="20%" />
+  <img src="imgs/U1_learned_density.png" width="20%" /> 
+  <img src="imgs/U1_samples_from_each_layer.png" width="26.667%" />
+  <img src="imgs/U1_kl_over_time.png" width="20%" />
 </p>
 
 Potential function $U_2$ (tapered version):
 
 <p align="middle">
-  <img src="imgs/U2_true_density.png" width="25%" />
-  <img src="imgs/U2_learned_density.png" width="25%" /> 
-  <img src="imgs/U2_samples_from_each_layer.png" width="33.33%" />
+  <img src="imgs/U2_true_density.png" width="20%" />
+  <img src="imgs/U2_learned_density.png" width="20%" /> 
+  <img src="imgs/U2_samples_from_each_layer.png" width="26.667%" />
+  <img src="imgs/U2_kl_over_time.png" width="20%" />
 </p>
 
 Potential function $U_3$ (tapered version):
 
 <p align="middle">
-  <img src="imgs/U3_true_density.png" width="25%" />
-  <img src="imgs/U3_learned_density.png" width="25%" /> 
-  <img src="imgs/U3_samples_from_each_layer.png" width="33.33%" />
+  <img src="imgs/U3_true_density.png" width="20%" />
+  <img src="imgs/U3_learned_density.png" width="20%" /> 
+  <img src="imgs/U3_samples_from_each_layer.png" width="26.667%" />
+  <img src="imgs/U3_kl_over_time.png" width="20%" />
 </p>
 
 Potential function $U_4$ (tapered version):
 
 <p align="middle">
-  <img src="imgs/U4_true_density.png" width="25%" />
-  <img src="imgs/U4_learned_density.png" width="25%" /> 
-  <img src="imgs/U4_samples_from_each_layer.png" width="33.33%" />
+  <img src="imgs/U4_true_density.png" width="20%" />
+  <img src="imgs/U4_learned_density.png" width="20%" /> 
+  <img src="imgs/U4_samples_from_each_layer.png" width="26.667%" />
+  <img src="imgs/U4_kl_over_time.png" width="20%" />
 </p>
 
 A potential function I created:
 
 <p align="middle">
-  <img src="imgs/U8_true_density.png" width="25%" />
-  <img src="imgs/U8_learned_density.png" width="25%" /> 
-  <img src="imgs/U8_samples_from_each_layer.png" width="33.33%" />
+  <img src="imgs/U8_true_density.png" width="20%" />
+  <img src="imgs/U8_learned_density.png" width="20%" /> 
+  <img src="imgs/U8_samples_from_each_layer.png" width="26.667%" />
+  <img src="imgs/U8_kl_over_time.png" width="20%" />
 </p>
 
 ## Fitting deep latent Gaussian models
