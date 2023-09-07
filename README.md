@@ -1,6 +1,9 @@
 # VI with normalizing flows
 
-This repo documents my attempt at reproducing "Variational Inference with Normalizing Flows" in PyTorch. 
+This repo documents my attempt at reproducing "Variational Inference with Normalizing Flows" in PyTorch:
+
+- Part 1: Approximating complex 2D distributions
+- Part 2: Fitting deep latent Gaussian models (in this case, a VAE)
 
 ## Approximating complex 2D distributions
 
@@ -69,3 +72,7 @@ A potential function I created:
   <img src="imgs/U8_learned_density.png" width="25%" /> 
   <img src="imgs/U8_samples_from_each_layer.png" width="33.33%" />
 </p>
+
+## Fitting deep latent Gaussian models
+
+TODO
