@@ -83,3 +83,5 @@ A potential function I created:
 ## Fitting deep latent Gaussian models
 
 TODO
+
+![ezgif com-gif-maker](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/be477dfe-7db6-48e1-b117-4f2a2c0ff0b3)
