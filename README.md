@@ -1,4 +1,4 @@
-# VI with normalizing flows
+# Exploring variational inference with normalizing flows
 
 This repo documents my attempt at reproducing "Variational Inference with Normalizing Flows" in PyTorch:
 
