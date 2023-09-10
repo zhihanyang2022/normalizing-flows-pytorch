@@ -3,7 +3,7 @@
 This repo documents my attempt at reproducing "Variational Inference with Normalizing Flows" in PyTorch:
 
 - Part 1: Approximating complex 2D distributions
-- Part 2: Part 1 but amortized
+- Part 2: Approximating complex high-dimensional distributions
 - Part 3: Fitting VAE (2-dimensional latent space)
 - Part 4: Fitting VAE (40-dimensional latent space)
 
@@ -80,9 +80,11 @@ A potential function I created:
   <img src="imgs/U8_kl_over_time.png" width="20%" />
 </p>
 
-## Fitting deep latent Gaussian models
+## Part 2: Approximating complex high-dimensional distributions
 
-TODO
+### 20-dimensional Bayesian linear regression
+
+### 10-dimensional tri-modal distribution
 
 <p align="middle">
   <img src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/be477dfe-7db6-48e1-b117-4f2a2c0ff0b3" width="50%" />
