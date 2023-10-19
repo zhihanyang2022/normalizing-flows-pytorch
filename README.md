@@ -1,5 +1,7 @@
 # Exploring variational inference with normalizing flows
 
+![conditional_vi](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/04baca46-c548-4ba8-9ea0-9c3bcf872f9a)
+
 This repo documents my attempt at reproducing "Variational Inference with Normalizing Flows" in PyTorch:
 
 - Part 1: Approximating complex 2D distributions
