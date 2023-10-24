@@ -2,6 +2,8 @@
 
 ## Unconditional variational inference
 
+See `core.py` and `nf_for_uncond_vi.ipynb`.
+
 Legend:
 
 - 1st image: unnormalized true density
@@ -56,8 +58,12 @@ A potential function I created:
 
 ## Conditional variational inference
 
+See `core_vectorized.py` and `nf_for_cond_vi.ipynb`.
+
 ![conditional_vi](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/04baca46-c548-4ba8-9ea0-9c3bcf872f9a)
 
 ## Training VAEs
+
+See `nfvae_train.py` and `nfvae_plot_learning_curves.py`
 
 <img width="817" alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/5d7a19bb-1707-41b6-bccf-ce11bc3553e5">
