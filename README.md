@@ -1,6 +1,14 @@
 # Exploring variational inference with normalizing flows
 
+## Unconditional variational inference
+
+## Conditional variational inference
+
 ![conditional_vi](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/04baca46-c548-4ba8-9ea0-9c3bcf872f9a)
+
+## Training VAEs
+
+<img width="817" alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/5d7a19bb-1707-41b6-bccf-ce11bc3553e5">
 
 This repo documents my attempt at reproducing "Variational Inference with Normalizing Flows" in PyTorch:
 
