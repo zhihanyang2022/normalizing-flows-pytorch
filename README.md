@@ -64,6 +64,6 @@ See `core_vectorized.py` and `nf_for_cond_vi.ipynb`.
 
 ## Training VAEs
 
-See `nfvae_train.py` and `nfvae_plot_learning_curves.py`
+See `nfvae_train.py` and `nfvae_plot_learning_curves.py`.
 
 <img width="817" alt="image" src="https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/5d7a19bb-1707-41b6-bccf-ce11bc3553e5">
