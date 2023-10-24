@@ -1,4 +1,4 @@
-# Exploring variational inference with normalizing flows
+# Variational inference with normalizing flows
 
 ## Unconditional variational inference
 
