@@ -1,5 +1,18 @@
 # Variational inference with normalizing flows
 
+Unofficial implementation of "Variational inference with normalizing flows".
+
+```{bibtex}
+@inproceedings{rezende2015variational,
+  title={Variational inference with normalizing flows},
+  author={Rezende, Danilo and Mohamed, Shakir},
+  booktitle={International conference on machine learning},
+  pages={1530--1538},
+  year={2015},
+  organization={PMLR}
+}
+```
+
 ## Unconditional variational inference
 
 See `core.py` and `nf_for_uncond_vi.ipynb`.
