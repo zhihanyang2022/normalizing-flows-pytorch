@@ -1,3 +1,5 @@
+# Variational inference with normalizing flows
+
 This is an unofficial implementation of "Variational inference with normalizing flows".
 
 ```bibtex
