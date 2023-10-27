@@ -2,7 +2,7 @@
 
 Unofficial implementation of "Variational inference with normalizing flows".
 
-```{bibtex}
+```bibtex
 @inproceedings{rezende2015variational,
   title={Variational inference with normalizing flows},
   author={Rezende, Danilo and Mohamed, Shakir},
