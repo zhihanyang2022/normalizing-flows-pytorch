@@ -13,7 +13,7 @@ This is an unofficial implementation of "Variational inference with normalizing 
 }
 ```
 
-## Unconditional variational inference
+## Task 1: unconditional variational inference
 
 See `core.py` and `nf_for_uncond_vi.ipynb`.
 
@@ -69,13 +69,13 @@ A potential function I created:
   <img src="imgs/U8_kl_over_time.png" width="20%" />
 </p>
 
-## Conditional variational inference
+## Task 2: conditional variational inference
 
 See `core_vectorized.py` and `nf_for_cond_vi.ipynb`.
 
 ![conditional_vi](https://github.com/zhihanyang2022/vi-with-normalizing-flows/assets/43589364/04baca46-c548-4ba8-9ea0-9c3bcf872f9a)
 
-## Training VAEs
+## Task 3: training VAEs
 
 See `nfvae_train.py` and `nfvae_plot_learning_curves.py`.
 
